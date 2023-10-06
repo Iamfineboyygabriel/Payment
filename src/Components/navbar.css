@@ -1,0 +1,64 @@
+/* Style the navigation container */
+.nav__container {
+  display: flex;
+  height: 84px;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  color: #636166;
+}
+
+/* Style the company logo and icon */
+.company-logo {
+  width: 67.1px;
+  height: 29px;
+  margin-right: 6em;
+}
+
+/* Style the navigation links */
+.nav__container ul.nav__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav__container ul.nav__links li {
+  margin-right: 20px;
+}
+
+/* Style the links themselves */
+.nav__container ul.nav__links li a {
+  text-decoration: none;
+  color: #636166;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  margin: 0 3em; /* Add margin to both sides of the links */
+}
+.step-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.progress-line {
+  margin-left: 11em;
+  margin-top: 4px;
+  height: 4px;
+  width: 55%;
+  background-color: #ccc;
+  position: relative;
+}
+
+.progress-circle {
+  width: 7px;
+  height: 7px;
+  background-color: purple;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  left: 0;
+  transition: left 0.3s ease-in-out;
+  max-width: calc(100% - 7px); /* Ensure circle never exceeds progress line */
+}
