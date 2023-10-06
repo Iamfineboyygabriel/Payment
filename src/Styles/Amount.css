@@ -1,0 +1,92 @@
+.container__house{
+    width: 540px;
+    margin: auto;
+    height: 372px;
+    background-color: #fff;
+    margin-top:149px;
+    padding: 3em;
+    border-radius: 6px;
+    border: 1px;
+    margin-bottom: 5em;
+    
+}
+
+.container__house h3{
+    color: #2C0C6A;
+}
+
+.container__house p{
+    color: #877E9E;
+}
+
+/* .you-send{
+    height: 5em;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px;
+    color: #F2F2F2;
+} */
+
+/* Style the form container */
+/* .form-container {
+    display: grid;
+    grid-template-columns: 1 1fr;
+    align-items: center;
+    width: 300px;
+    background-color: yellow;
+  }
+   */
+  /* Style the flag circle */
+  /* .flag-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px; 
+  } */
+/*   
+  .us {
+    width: 40%; 
+    height: 40%;
+    border-radius: 5em;
+    display: flex;
+    justify-content: space-between;
+  } 
+
+   .us img{
+    width: 30%;
+    height: 30%;
+    border-radius: 5em;
+    margin-left: 1em;
+    display: flex;
+    justify-content: center;
+  } 
+   */
+  /* Style the text input */
+   /* .form-container{
+    background:   yellow;
+  }
+  .text-input {
+    border: 0.4px;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1; 
+    border: 0px solid #ccc; 
+    border-radius: 5px;
+    padding: 10px;
+    background: #ccc;
+    gap: 2em;
+  }
+   
+    .text-input input {
+    border: none;
+    width: 313.72px;
+    height: 65px;
+    font-size: 16px;
+    display: flex;
+  }   
+
+   */

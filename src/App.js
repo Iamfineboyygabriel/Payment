@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Payment from './Payment/Payment';
+import Amount from './Components/Amount';
+import Recipient from './Components/Recipient';
+import Pay from './Components/Pay';
+import Review from './Components/Review';
+import Inside from './Components/Inside';
+import Outside from './Components/Outside';
+import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Payment/>
+        <Routes>
+          <Route path="/amount" element={<Amount />} />
+          <Route path="/recipient" element={<Recipient />}>
+            <Route path="inside" element={<Inside />} />
+            <Route path="outside" element={<Outside />} />
+          </Route>
+          <Route path="/review" element={<Review />} />
+          <Route path="/pay" element={<Pay />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
