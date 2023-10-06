@@ -1,0 +1,77 @@
+/* Add these styles to your pay.css */
+
+header {
+    width: 100vw;
+    min-height: 100vh;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container2 {
+    margin-top: 4em;
+    border-radius: 10px;
+    background-color: rgb(194, 185, 194);
+    width: 518px;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+  }
+  
+  .right {
+    flex-basis: 50%;
+  }
+  
+  form {
+    padding: 1rem;
+  }
+  
+  h3 {
+    margin-top: 1rem;
+    color: #2c3e50;
+  }
+  
+  /* Styles for form elements */
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+  }
+  
+  form input[type="text"],
+  form select,
+  form input[type="number"] {
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    margin: 0.2rem 0;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  .zip {
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 5px;
+  }
+  
+  /* Styles for the Visa images */
+  
+  .visas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  
+  .visas img {
+    width: 5em;
+    height: 3em;
+    background: #2c3e50;
+    margin-right: 10px; /* Adjust the spacing between images */
+  }
+  
